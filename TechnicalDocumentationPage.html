@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Technical Documentation Page</title>
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JavaScript</header>
+      <a class="nav-link" href="#JavaScript:_A_Quick_Definition"
+        >JavaScript: A Quick Definition</a
+      >
+      <a class="nav-link" href="#What_Is_JavaScript?_A_Detailed_Explanation"
+        >What Is JavaScript? A Detailed Explanation</a
+      >
+      <a class="nav-link" href="#What_is_JavaScript_Used_For?"
+        >What is JavaScript Used For?</a
+      >
+      <a class="nav-link" href="#How_Does_JavaScript_Work?"
+        >How Does JavaScript Work?</a
+      >
+
+      <a class="nav-link" href="#What_is_Vanilla_JavaScript?"
+        >What is Vanilla JavaScript?</a
+      >
+      <a
+        class="nav-link"
+        href="#Advanced_Javascript:_Frameworks_and_Libraries_(AKA_Tools_to_Make_JS_Easier)"
+        >Advanced Javascript: Frameworks and Libraries (AKA Tools to Make JS
+        Easier)</a
+      >
+      <a class="nav-link" href="#How_to_Learn_JavaScript"
+        >How to Learn JavaScript</a
+      >
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="JavaScript:_A_Quick_Definition">
+        <header>JavaScript: A Quick Definition</header>
+        <article>
+          <p>
+            JavaScript is a scripting language used to create and control
+            dynamic website content, i.e. anything that moves, refreshes, or
+            otherwise changes on your screen without requiring you to manually
+            reload a web page. Features like:
+          </p>
+          <ul>
+            <li>animated graphics</li>
+            <li>photo slideshows</li>
+            <li>autocomplete text suggestions</li>
+            <li>interactive forms</li>
+          </ul>
+          <p>
+            An even better way of understanding what JavaScript does is to think
+            about certain web features you use every day and likely take for
+            granted—like when your Facebook timeline automatically updates on
+            your screen or Google suggests search terms based on a few letters
+            you’ve started typing. In both cases, that’s JavaScript in action.
+          </p>
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+
+      <section
+        id="What_Is_JavaScript?_A_Detailed_Explanation"
+        class="main-section"
+      >
+        <header>What Is JavaScript? A Detailed Explanation</header>
+        <article>
+          <p>
+            If you’re hoping to break into a career in tech, your question might
+            sound more like: “<em>What is JavaScript and do I need it?</em> ”
+          </p>
+          <p>
+            If you’re interested in web development—the answer is a resounding
+            yes. So with that out of the way, let’s go a bit deeper into how
+            JavaScript works.
+          </p>
+
+          <h3>The Power of 3: HTML, CSS, and JavaScript</h3>
+
+          <p>
+            When most people learn to code, they start with good old HTML and
+            CSS. From there, they move on to JavaScript. Which makes sense! The
+            three elements together form the backbone of web development.
+          </p>
+          <p>For those not familiar:</p>
+          <ul>
+            <li>
+              <strong>HTML</strong> is the structure of your page—the headers,
+              the body text, any images you want to include
+            </li>
+            <li>
+              <strong>CSS</strong> controls how that page looks (it’s what
+              you’ll use to customize fonts, background colors, etc.)
+            </li>
+            <li>
+              <strong>JavaScript</strong> is the magic third element. Once
+              you’ve created your structure (HTML) and your aesthetic vibe
+              (CSS), JavaScript makes your site or project dynamic.
+            </li>
+          </ul>
+
+          <h3>JavaScript is Used to Automate and Animate</h3>
+
+          <p>
+            I mentioned above that JavaScript is a
+            <em>“Scripting language.”</em> Scripting languages are coding
+            languages used to automate processes that users would otherwise need
+            to execute on their own, step-by-step. Short of scripting, any
+            changes on web pages you visit would require either manually
+            reloading the page, or navigating a series of static menus to get to
+            the content you’re after
+          </p>
+          <p>
+            A scripting language like JavaScript (JS, for those in the know)
+            does the heavy lifting by telling computer programs like websites or
+            web applications to <em>“do something.”</em> In the case of
+            JavaScript, this means telling those dynamic features described
+            earlier to do whatever it is they do—like telling images to animate
+            themselves, photos to cycle through a slideshow, or autocomplete
+            suggestions to respond to prompts. It’s the <em>“script”</em> in
+            JavaScript that makes these things happen seemingly on their own.
+          </p>
+
+          <p>
+            Meanwhile, because JavaScript is such an integral part of web
+            functionality, all major web browsers come with built-in engines
+            that can render JavaScript. This means JS commands can be typed
+            directly into an HTML document, and web browsers will be able to
+            understand them. In other words, using JavaScript doesn’t require
+            downloading any additional programs or compilers.
+          </p>
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_is_JavaScript_Used_For?">
+        <header>What is JavaScript Used For?</header>
+        <article>
+          <p>
+            We covered this a bit in the intro, but here’s a quick list of the
+            main things JavaScript is used for.
+          </p>
+          <ul>
+            <li>
+              <strong> Adding interactivity to websites—yup</strong>, if you
+              want a website to be more than a static page of text, you’ll need
+              to do some JavaScripting
+            </li>
+            <li>
+              <strong>Developing mobile applications</strong>—JavaScript isn’t
+              just for websites…it’s used to create those apps you have on your
+              phone and tablet as well
+            </li>
+            <li>
+              <strong>Creating web browser based games</strong>—Ever played a
+              game directly from your web browser? JavaScript probably helped
+              make that happen
+            </li>
+            <li>
+              <strong>Back end web development</strong>—yeah, JavaScript is
+              MOSTLY used on the front end of things, but it’s a versatile
+              enough scripting language to be used on back end infrastructure,
+              too.
+            </li>
+          </ul>
+
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+
+      <section class="main-section" id="How_Does_JavaScript_Work?">
+        <header>How Does JavaScript Work?</header>
+        <article>
+          <p>
+            JavaScript is either embedded into a web page or else it’s included
+            in a .js file. JavaScript is also a <em>“client-side”</em> language
+            (rather than a <em>“server-side”</em> language), which is a fancy
+            way of saying that it gets downloaded to site visitors’ computers,
+            then processed.
+          </p>
+
+          <h3>How Do You Add JavaScript to a Website?</h3>
+          <p>
+            Actually adding JavaScript code to a web page is a pretty simple
+            process (and a familiar one if you’ve done any coding with HTML and
+            CSS). JavaScript can be added directly to a page’s code using using
+            <code> &lt;script&gt;</code> tags and giving them the type attribute
+            text/javascript. Honestly, JavaScript looks very similar to adding
+            CSS to a site. Here’s a side-by-side comparison:
+          </p>
+          <code><strong>CSS:</strong></code>
+          <code> &lt;style&gt; CSS goes here &lt;/style&gt; </code>
+          <code><strong>JavaScript:</strong></code>
+
+          <code
+            >&lt;script type="text/javascript"&gt; JavaScript code goes here
+            &lt;/script&gt;</code
+          >
+
+          <p>
+            Voila! JavaScript code can also be added to a page as a separate
+            header file with the extension .js (generally done if it’s code that
+            you want to include across a number of pages at once). The script is
+            then downloaded and processed in each individual’s web browser,
+            turning it into the dynamic objects and effects they see on their
+            screen.
+          </p>
+          <p>
+            One word of warning, though: since JavaScript is processed by
+            individual browsers, it’s possible a user might have JavaScript
+            disabled on their end. Sites that use JavaScript need to have a back
+            up plan in place to avoid breaking when this happens.
+          </p>
+
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_is_Vanilla_JavaScript?">
+        <header>What is Vanilla JavaScript?</header>
+        <article>
+          <p>
+            As you dig into JavaScript you’ll eventually hear the term
+            <em>“vanilla Javascript.”</em> So what does that mean?
+          </p>
+          <p>
+            <strong>Vanilla JavaScript</strong> is the JavaScript language
+            <em>“as is”</em> without using any tools to make the coding process
+            easier or more efficient.
+          </p>
+
+          <p>
+            To give you an idea of what vanilla JavaScript looks like, consider
+            the following basic example of JavaScript code. If you wanted users
+            to receive a <em>“thanks for signing up”</em> confirmation message
+            after signing up for an offer or service on a website, you would
+            code it directly into an HTML page (between &lt;script&gt; tags)
+            like this:
+          </p>
+          <code style="font-weight: 400">&lt;script&gt;</code>
+          <code style="font-weight: 400">window.onload = initAll;</code>
+          <code style="font-weight: 400">function initAll() {</code>
+          <code style="font-weight: 400">
+            >document.getElementById(“submit”).onclick = submitMessage;</code
+          >
+          <code style="font-weight: 400">}</code>
+          <code style="font-weight: 400">function submitMessage() {</code>
+          <code style="font-weight: 400">
+            >var greeting =
+            document.getElementById(“name”).getAttribute(“value”);</code
+          >
+          <code style="font-weight: 400"
+            >document.getElementById(“headline”).innerHTML = “Thank you for
+            joining our email
+          </code>
+          <code style="font-weight: 400">list,” + greeting;</code>
+          <code style="font-weight: 400">return false;</code>
+          <code style="font-weight: 400">}</code>
+          <code style="font-weight: 400">&lt;script&gt</code>
+
+          <p>
+            Vanilla JS like this can be used to create JavaScript projects, but
+            as you become more familiar with the JavaScript language, there are
+            different tools you can implement to make JS easier and more
+            efficient to use.
+          </p>
+
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+
+      <section
+        class="main-section"
+        id="Advanced_Javascript:_Frameworks_and_Libraries_(AKA_Tools_to_Make_JS_Easier)"
+      >
+        <header>
+          Advanced Javascript: Frameworks and Libraries (AKA Tools to Make JS
+          Easier)
+        </header>
+        <article>
+          <p>
+            As you might imagine, using vanilla javascript alone takes…forever
+            and for web developers, and time is money. That’s why JavaScript
+            frameworks and libraries (tools that make JS a whooole lot easier to
+            use) are your new best friends. Here’s a breakdown of some of the
+            main ones you’ll encounter and what they do.
+          </p>
+          <h3>JQuery—The O.G. JavaScript Library</h3>
+          <p>
+            When you work with JavaScript, you’ll notice JS functions and
+            features that show up regularly across multiple websites or web
+            apps—things like menu animations and fade outs, file upload forms,
+            and image galleries. While you could code each of these things from
+            the ground up every time you need one, your coding life will feel a
+            lot easier if you use coding libraries like jQuery instead.
+          </p>
+          <p>
+            The jQuery library is made up of JavaScript coding functions that
+            can be performed through single line jQuery commands. For example,
+            the JavaScript code example above looks like this if it’s performed
+            using jQuery code instead:
+          </p>
+
+          <code style="font-weight: 400">&lt;script&gt;</code>
+          <code style="font-weight: 400">$(“#submit”).click(function () {</code>
+          <code style="font-weight: 400">var greeting = $(“#name”).val();</code>
+          <code style="font-weight: 400"
+            >$(“#headline”).html(“Thank you for joining our email list, ” +
+            greeting);</code
+          >
+          <code style="font-weight: 400">return false;</code>
+          <code style="font-weight: 400">});</code>
+          <code style="font-weight: 400">&lt;script/&gt; </code>
+          <p>
+            As you can see, the jQuery programming approach is a lot more
+            concise, and it can be reused any time you want to perform the same
+            JavaScript function while coding a website or web app.
+          </p>
+          <p>
+            In addition to examples like the one above (which are considered
+            jQuery snippets—snippets of code inserted directly from the jQuery
+            library to perform dedicated functions), jQuery code can be put
+            together to create more complicated plugins. jQuery plugins can be
+            found directly from the jQuery UI (User Interface) repository, where
+            source code is available for copying and pasting.
+          </p>
+
+          <h3>React JS—A Front End Developer’s Best Friend</h3>
+          <p>
+            Along with jQuery, React JS is another key JavaScript library for
+            web developers. React JS is a front end JavaScript library developed
+            by Facebook in 2011 and designed specifically for building UIs (user
+            interfaces). If you’re not familiar, UIs are the collection of
+            on-screen menus, search bars, buttons, and anything else someone
+            interacts with to use a website or app, and while you CAN build them
+            painstakingly by hand with vanilla JavaScript, who has time for
+            that?
+          </p>
+          <p>
+            React allows developers to use prewritten code for repetitive menu
+            objects and effects (like interactive forms, autocomplete features,
+            fade-in or out menu animations, etc.), and it also improves overall
+            site speed and performance through feature called Virtual DOM (which
+            you can read all about here). Learning how to use React JS will make
+            your life a whole lot easier as a JavaScript developer, and it will
+            also make you a lot more hireable.
+          </p>
+
+          <h3>Other JavaScript Libraries and Frameworks</h3>
+
+          <p>
+            While JS libraries like jQuery and React function as digital Swiss
+            Army knives for individual coding needs, front-end developers can
+            take things a step farther by using tools called JavaScript
+            frameworks.
+          </p>
+          <p>
+            Extending past the patchwork functionality of jQuery, JS frameworks
+            provide JavaScript developers with full templates for websites or
+            web applications. JS frameworks then create spaces in those
+            templates where JS code is recommended to go, as well as prewritten
+            code (much like jQuery) that can be plugged into those spaces.
+          </p>
+
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+
+      <section class="main-section" id="How_to_Learn_JavaScript">
+        <header>How to Learn JavaScript</header>
+        <article>
+          <p>
+            The takeaway here? While HTML and CSS are the skills that will let
+            you code a basic web page, JavaScript is the programming language
+            that will bring that page to life. Even though HTML and CSS by
+            themselves will put you in position to do beginning developer work,
+            taking the time to learn JavaScript will help your job prospects
+            increase exponentially.
+          </p>
+          <p>
+            If you’re ready for a comprehensive JavaScript tutorial, look no
+            further than our Front End Developer Blueprint. This instructor-led
+            course will guide you through the ins and outs of the JavaScript
+            language and the jQuery library, as well as HTML, CSS, and other
+            critical web developer skills.
+          </p>
+
+          <a href="#navbar" class="back">Back to navigation bar</a>
+        </article>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
